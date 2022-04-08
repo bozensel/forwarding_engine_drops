@@ -3,16 +3,16 @@ How to get forwarding engine drops for each port.
 
 There are many reasons that forwarding engine drops are generated under a specific port: 
 
-Malformed IP header
-IP SA or DA not valid
-Service MTU exceeded
-SAP or SDP or service disabled
-Ethertype or PPP ID unknown
-Interface disabled
-MAC DA not our interface MAC
-Same segment discard
-Bad checksum
-TTL expired
+- Malformed IP header
+- IP SA or DA not valid
+- Service MTU exceeded
+- SAP or SDP or service disabled
+- Ethertype or PPP ID unknown
+- Interface disabled
+- MAC DA not our interface MAC
+- Same segment discard
+- Bad checksum
+- TTL expired
 
 After the code runs:
 
